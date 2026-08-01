@@ -1,8 +1,26 @@
 aid: shrapnel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shrapnel.png
 name: SHRAPNEL
-description: 'SHRAPNEL is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'SHRAPNEL is a AAA free-to-play extraction first-person shooter developed by
+  Neon Machine and built on a dedicated Avalanche blockchain subnet. Early access launched
+  on PC in February 2024, with a Steam listing and a player-driven economy: modding and
+  creator tools for building skins and maps, a marketplace for tradable in-game items, and
+  the SHRAP token. Neon Machine has publicly announced a Web3 developer API platform named
+  GameBridge, but as of this profile it is not yet publicly documented — SHRAPNEL exposes
+  no public developer API, SDK, OpenAPI, or docs portal, and shrapnel.com sits behind
+  Cloudflare bot protection. Surfaced as a portfolio company of Polychain and tracked in the
+  API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/shrapnel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Gaming
+- Blockchain
+- Web3
+- Avalanche
+- FPS
+- Marketplace
+- Esports
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shrapnel-domain-security.yml
 - type: Website
   url: https://shrapnel.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
